@@ -172,7 +172,7 @@ nav {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1284px) {
     .project-grid {
         grid-template-columns: repeat(1, 1fr); /* Single column for mobile */
     }
@@ -184,7 +184,7 @@ nav {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1284px) {
     .nav-v2 {
         display: flex;
         justify-content: center; /* Horizontal centering */
