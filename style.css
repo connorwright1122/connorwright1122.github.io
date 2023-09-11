@@ -182,6 +182,12 @@ nav {
         height: 225px; /* Let the content determine the height */
         margin: 10px 0; /* Add some space between items */
     }
+
+    .project-item.extra-gallery {
+        width: 355px; /* Full width for mobile */
+        height: 225px; /* Let the content determine the height */
+        margin: 10px 0; /* Add some space between items */
+    }
 }
 
 @media (max-width: 1284px) {
