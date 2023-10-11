@@ -242,6 +242,14 @@ nav {
     /*mix-blend-mode: difference;*/
 }
 
+.project-item-info h4 {
+    line-height: 1;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+    /*mix-blend-mode: difference;*/
+}
+
 #gt-oit-omniverse {
     background-image: url("images/gt-oit-omniverse.jpeg");
 }
@@ -288,6 +296,18 @@ nav {
 
 #productgt {
     background-image: url("images/product.gt.logo.jpg");
+}
+
+#stemobile {
+    background-image: url("images/stemobile.webp");
+}
+
+#stemrenovations {
+    background-image: url("images/claw-machine.webp");
+}
+
+#iac-sab {
+    background-image: url("images/IAC-logo.jpg");
 }
 
 #extra-wisconsin {
