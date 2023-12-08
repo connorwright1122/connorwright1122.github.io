@@ -318,6 +318,10 @@ nav {
     background-image: url("images/VectorViz.png");
 }
 
+#dundundungeon {
+    background-image: url("images/DunDunDungeonLogo.png");
+}
+
 
 
 .backdrop {
@@ -426,11 +430,13 @@ nav {
 }
 
 #portfoliobackdrop {
-    background-image: url("images/ai-portfolio.png");
+    /*background-image: url("images/ai-portfolio.png");*/
+    background-image: url("images/portfolio-backdrop-3.png");
 }
 
 #portfoliobackdrop1 {
-    background-image: url("images/ai-portfolio.png");
+    /*background-image: url("images/ai-portfolio.png");*/
+    background-image: url("images/portfolio-backdrop-3.png");
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
