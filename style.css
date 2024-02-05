@@ -258,6 +258,14 @@ nav {
     background-image: url("images/gt-oit-nda.png");
 }
 
+#gt-vip {
+    background-image: url("images/gt-vip.jpeg");
+}
+
+#gt-expressive {
+    background-image: url("images/gt-expressive.jpg");
+}
+
 #shipwright-studios {
     background-image: url("images/shipwright-studios-1710.avif");
 }
