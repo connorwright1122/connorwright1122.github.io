@@ -270,6 +270,16 @@ nav {
     background-image: url("images/shipwright-studios-1710.avif");
 }
 
+#thd-pm {
+    background-image: url("images/thd-logo.jpeg");
+}
+
+#hirez-swe {
+    background-image: url("images/hirez-logo.jpeg");
+}
+
+
+
 #utime {
     background-image: url("images/uTimeApp.png");
 }
@@ -333,6 +343,8 @@ nav {
 #gtpm-invoke {
     background-image: url("images/GTPM-Invoke.jpg");
 }
+
+
 
 
 
