@@ -7,12 +7,13 @@ export default function Navbar() {
                 <h1>Connor Wright</h1>
                 <ul class="navigation">
                     <li>
-                        <Link to="./pages/Home">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
-                    {/*
+                    
                     <li>
                         <Link to="/about">About</Link>
                     </li>
+                    {/*
                     <li>
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
