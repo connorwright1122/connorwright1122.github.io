@@ -172,13 +172,16 @@ nav {
   border-left: 5px;
   border-right: 5px;
   border-top: 1px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .project-item {
   
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 
   width: 355px;
   height: 225px;
@@ -188,6 +191,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 .project-item.extra-gallery {
   border: 0px;
@@ -195,6 +199,8 @@ nav {
 .project-item-info {
   padding-left: 0px;
   margin: 0;
+  text-align: left;
+  line-height: .1;
   
 }
 
@@ -247,7 +253,7 @@ nav {
 }
 
 .project-item-info p {
-  line-height: 1;
+  line-height: 0;
   padding-top: 1px;
   margin-top: 1px;
 
@@ -258,6 +264,7 @@ nav {
   line-height: 1;
   padding-top: 8px;
   margin: 0;
+  padding-bottom: 8px;
   /*mix-blend-mode: difference;*/
 }
 

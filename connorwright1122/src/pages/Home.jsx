@@ -15,7 +15,7 @@ export default function Home() {
             </div>
 
             <BackdropLink to="/about" title="About" background='/assets/images/backdrops/about-backdrop1.jpg'></BackdropLink>
-            <BackdropLink to="/about" title="About" background='/assets/images/backdrops/about-backdrop1.jpg'></BackdropLink>
+            <BackdropLink to="/portfolio" title="Portfolio" background='/assets/images/backdrops/portfolio-backdrop-3.png'></BackdropLink>
 
         </>
     );
