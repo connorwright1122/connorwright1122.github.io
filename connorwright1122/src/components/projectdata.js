@@ -78,7 +78,7 @@ export const experienceData = [
             origin: 'Buzz Studios Filmmaking Club',
             date: 'Spring 2025 - Present',
             tools: 'React.js, Node.js, GCP, HTML/CSS/JS',
-            description: 'Developer for film club\'s in-house short film streaming service',
+            description: 'Developer for film club\'s in-house short film streaming service hosting projects dating back to 2001',
         }
     },
 
@@ -211,6 +211,105 @@ export const experienceData = [
             date: 'Fall 2023',
             tools: 'Java, Android Studio',
             description: 'Android game utilizing MVC architecture and design patterns',
+        }
+    },
+
+    {
+        title: 'VectorViz',
+        //img: '/assets/images/projects/anim2spritesheet-cover-2.jpg',
+        link: 'https://devpost.com/software/vdbviz',
+        details: {
+            origin: 'AI ATL Hackathon 2023',
+            date: 'Fall 2023',
+            tools: 'Svelte, Python, GCP, OpenAI API, Flask, FAISS, BERT',
+            description: 'Interactive nodal visualization / exploration / AI chat of vector databases',
+            award1: '1st Place - BCGX Business Innovation Track',
+            award2: 'Honorable Mention - Best Use of Google Cloud'
+        }
+    },
+
+    {
+        title: 'PantryPal',
+        //img: '/assets/images/projects/anim2spritesheet-cover-2.jpg',
+        link: 'https://devpost.com/software/pantry-pal-4aeqmh',
+        details: {
+            origin: 'HexLabs HackGT X',
+            date: 'Fall 2023',
+            tools: 'React.js, HTML/CSS/JS, Tesseract.js, Figma',
+            description: 'Sustainable CV-powered kitchen recipe generator',
+        }
+    },
+
+    {
+        title: 'Tron: Disc Wars XR',
+        //img: '/assets/images/projects/anim2spritesheet-cover-2.jpg',
+        link: 'https://devpost.com/software/tron-lives',
+        details: {
+            origin: 'ImmerseGT XR Hackathon 2023',
+            date: 'Spring 2023',
+            tools: 'C#, Unity, Photon SDK, Meta Interaction SDK',
+            description: 'Multiplayer co-location mixed-reality duels inspired by Tron: Legacy',
+            award1: '1st Place - Virtual Adventures Track (Best in Sports & Gaming)'
+        }
+    },
+
+    {
+        title: 'uTime',
+        //img: '/assets/images/projects/anim2spritesheet-cover-2.jpg',
+        link: 'https://www.youtube.com/watch?v=3lNHDCUK9fY',
+        details: {
+            origin: 'GDSC Google Solutions Challenge 2023',
+            date: 'Spring 2023',
+            tools: 'Dart, Java, Flutter, Firebase, Figma',
+            description: 'Cooperative screentime tracking with friends system to combat technostress',
+        }
+    },
+
+    {
+        title: 'Buzz Cafe',
+        //img: '/assets/images/projects/anim2spritesheet-cover-2.jpg',
+        link: 'https://devpost.com/software/buzzcafe',
+        details: {
+            origin: 'HexLabs Horizons Arts + Tech Hackathon 2023',
+            date: 'Spring 2023',
+            tools: 'C#, Unity, Meta Interaction SDK',
+            description: 'Immersive VR social space and interactive art experience',
+        }
+    },
+
+    {
+        title: 'RUINAE + Unity Course Curriculum',
+        img: '/assets/images/projects/GameDev/ruinae.png',
+        link: 'https://conatordev.itch.io/ruinae',
+        details: {
+            origin: 'HS STEM Capstone',
+            date: 'Fall 2021 - Spring 2022',
+            tools: 'C#, Unity, Blender, Photoshop',
+            description: 'Unity-based action-platformer game using custom 3D-to-2D art pipeline',
+        }
+    },
+
+    {
+        title: 'STEM Lab Project Renovations',
+        img: '/assets/images/projects/claw-machine.webp',
+        link: 'https://www.youtube.com/watch?app=desktop&v=K7-B12MxqJo',
+        details: {
+            origin: 'HS STEM Computer Technology Class',
+            date: 'Fall 2021 - Spring 2022',
+            tools: 'C, C++, Arduino, Windows Batch Scripting',
+            description: 'Renovations to Claw Machine (conversion to new Arduino motor library) and Arcade Machine (expanding emulator to play Unity and Python games)',
+        }
+    },
+
+    {
+        title: 'STEMobile Electric Vehicle',
+        img: '/assets/images/projects/stemobile.webp',
+        link: 'https://www.fellowshipchristianschool.org/academics/stem/major-projects/stemobile-build',
+        details: {
+            origin: 'HS STEM Junior Capstone',
+            date: 'Fall 2020 - Spring 2021',
+            tools: 'C, C++, Arduino',
+            description: 'Digital Systems for Arduino-motor communication, led touchscreen UI design and integration',
         }
     },
   ];
