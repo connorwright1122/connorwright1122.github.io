@@ -248,7 +248,7 @@ export const projectData = [
             origin: 'HexLabs HackGT X',
             date: 'Fall 2023',
             tools: 'React.js, HTML/CSS/JS, Tesseract.js, Figma',
-            description: 'Sustainable CV-powered kitchen recipe generator',
+            description: 'Sustainable CV-powered kitchen recipe generator React web app',
         }
     },
 
@@ -273,7 +273,7 @@ export const projectData = [
             origin: 'GDSC Google Solutions Challenge 2023',
             date: 'Spring 2023',
             tools: 'Dart, Java, Flutter, Firebase, Figma',
-            description: 'Cooperative screentime tracking with friends system to combat technostress',
+            description: 'Cooperative screentime tracking app with friends system to combat technostress',
         }
     },
 
@@ -297,7 +297,7 @@ export const projectData = [
             origin: 'HS STEM Capstone',
             date: 'Fall 2021 - Spring 2022',
             tools: 'C#, Unity, Blender, Photoshop',
-            description: 'Unity-based action-platformer game using custom 3D-to-2D art pipeline',
+            description: 'Unity-based action-platformer game using custom 3D-to-2D sprite art pipeline',
         }
     },
 
@@ -328,14 +328,98 @@ export const projectData = [
   
 export const gamedevData = [
     {
-        title: 'Buzz Studios Film Archive',
-        img: '/assets/images/projects/buzzstudios-archive.png',
-        link: 'https://github.com/Buzz-Studios-Development-Team/BuzzStudiosFilmArchive',
+        title: 'Kaijumo!',
+        img: '/assets/images/extras/gamedev/kaijumo.jpg',
+        link: 'https://conatordev.itch.io/kaijumo',
         details: {
-            origin: 'Buzz Studios Filmmaking Club',
-            date: 'Spring 2025 - Present',
-            tools: 'React.js, Node.js, GCP, HTML/CSS/JS',
-            description: 'Developer for film club\'s in-house short film streaming service hosting projects dating back to 2001',
+            origin: 'GMTK Game Jam 2024',
+            date: 'Summer 2024',
+            tools: 'C#, Unity, Blender',
+            description: 'Mini-Kaiju arcade brawler inspired by classic Godzilla films',
+        }
+    },
+
+    {
+        title: 'Detective Deckname and the Universal Solvent',
+        img: '/assets/images/extras/gamedev/deckname-poster-short.jpg',
+        link: 'https://conatordev.itch.io/detective-deckname-and-the-universal-solvent',
+        details: {
+            origin: 'Pirate Software Game Jam 15',
+            date: 'Summer 2024',
+            tools: 'C#, Unity, Blender, YarnSpinner',
+            description: 'Comedy-Mystery-Narrative-Puzzler in a Cyber-Noir world',
+        }
+    },
+
+    {
+        title: 'DEBUGGER',
+        img: '/assets/images/extras/gamedev/DebuggerLogo.png',
+        link: 'https://conatordev.itch.io/debugger',
+        details: {
+            origin: 'LMC 2700 - Computational Media - Final Project',
+            date: 'Spring 2024',
+            tools: 'C#, Unity, Blender',
+            description: 'DOOM-style first person shooter',
+        }
+    },
+
+    {
+        title: 'Occipital Route',
+        img: '/assets/images/extras/gamedev/occipitalroute.png',
+        link: 'https://conatordev.itch.io/occipital-route',
+        details: {
+            origin: 'GMTK Game Jam 2023',
+            date: 'Summer 2023',
+            tools: 'C#, Unity, Blender',
+            description: 'Reverse-survival-horror where you play as the monster hunting a speedrunner',
+        }
+    },
+
+    {
+        title: 'Die Recast',
+        img: '/assets/images/extras/gamedev/dierecast.png',
+        link: 'https://conatordev.itch.io/die-recast',
+        details: {
+            origin: 'GMTK Game Jam 2022',
+            date: 'Summer 2022',
+            tools: 'C#, Unity, Blender',
+            description: 'Isometric physics-based roguelite boss battle',
+        }
+    },
+
+    {
+        title: 'To USB',
+        img: '/assets/images/extras/gamedev/tousb.png',
+        link: 'https://conatordev.itch.io/to-usb',
+        details: {
+            origin: 'Lost Relic Game Jam 2022',
+            date: 'Summer 2022',
+            tools: 'C#, Unity, Blender',
+            description: 'Rage-bait 3D platformer',
+        }
+    },
+
+    {
+        title: 'Ruinae',
+        img: '/assets/images/projects/GameDev/ruinae.png',
+        link: 'https://conatordev.itch.io/ruinae',
+        details: {
+            origin: 'HS STEM Capstone',
+            date: 'Fall 2021 - Spring 2022',
+            tools: 'C#, Unity, Blender',
+            description: '2D Action Platformer with a custom 3D-to-2D sprite art pipeline',
+        }
+    },
+
+    {
+        title: 'Ragduel',
+        img: '/assets/images/projects/GameDev/ragduel.png',
+        link: 'https://conatordev.itch.io/ragduel',
+        details: {
+            origin: 'GMTK Game Jam 2023',
+            date: 'Spring 2022',
+            tools: 'C#, Unity, Blender',
+            description: 'First person ragdoll physics-based arena combat',
         }
     },
 ];

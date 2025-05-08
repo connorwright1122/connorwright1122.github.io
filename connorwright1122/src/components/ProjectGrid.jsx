@@ -5,8 +5,8 @@ export default function ProjectGrid({items}) {
         <div className="project-grid">
             {items.map((item, idx) => (
                 <a key={idx} href={item.link} target="_blank" rel="noopener noreferrer">
-                <div className="project-item">
-                    {item.img && <img src={item.img} alt={item.title} width="355" height="225" />}
+                <div className="project-item" id='project-img'>
+                    {item.img && <img src={item.img} alt={item.title} id='project-img'  />}
                 </div>
                 <div className="project-item-info">
                     <h3>{item.title}</h3>

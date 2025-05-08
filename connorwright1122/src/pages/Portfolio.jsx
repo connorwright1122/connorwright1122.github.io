@@ -1,6 +1,6 @@
 import '../index.css';
 import ProjectGrid from '../components/ProjectGrid';
-import { experienceData, projectData } from '../components/projectdata';
+import { experienceData, gamedevData, projectData } from '../components/projectdata';
 
 export default function Portfolio() {
     return (
@@ -16,11 +16,14 @@ export default function Portfolio() {
             </div>
             
             <div className='siteBody'>
-                <h2>Experience</h2>
+                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>Experience</h2>
                 <ProjectGrid items={experienceData}></ProjectGrid>
 
-                <h2>Projects</h2>
+                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>Projects</h2>
                 <ProjectGrid items={projectData}></ProjectGrid>
+
+                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>Game Dev</h2>
+                <ProjectGrid items={gamedevData}></ProjectGrid>
             </div>
             
         </>

@@ -20,6 +20,9 @@ code {
 html {
   background-color: #232323;
   color: #EBEAE9;
+  overflow-x: hidden;
+  width: 100%;
+
 }
 
 header {
@@ -183,8 +186,11 @@ nav {
   justify-content: flex-end;
   align-items: flex-start;
 
+  /*
   width: 355px;
   height: 225px; 
+  */
+  
   border: 1px solid #EBEAE9;
   margin: 1px;
 
@@ -193,6 +199,12 @@ nav {
   background-position: center;
   
 }
+
+#project-img {
+  width: 385px;
+  height: 255px;
+}
+
 .project-item.extra-gallery {
   border: 0px;
 }
@@ -200,8 +212,8 @@ nav {
   padding-left: 0px;
   margin: 0;
   text-align: left;
-  line-height: .1;
-
+  line-height: .2;
+  padding-bottom: 30px;
   
   
 }
@@ -263,7 +275,7 @@ nav {
 
   line-height: 1;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
   padding-top: 0; /* Use 1px if you want very light separation */
 
 
