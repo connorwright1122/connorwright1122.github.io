@@ -8,6 +8,7 @@ export const experienceData = [
             date: 'Summer 2024 - Spring 2025',
             tools: 'Stable Diffusion, Python, InvokeAI, PyTorch, Unreal Engine'
         },
+        slug: 'hi-rez-2024'
     },
 
     {
