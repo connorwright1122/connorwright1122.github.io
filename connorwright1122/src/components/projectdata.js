@@ -6,9 +6,24 @@ export const experienceData = [
         details: {
             origin: 'Hi-Rez Studios',
             date: 'Summer 2024 - Spring 2025',
-            tools: 'Stable Diffusion, Python, InvokeAI, PyTorch, Unreal Engine'
+            tools: 'Python/PyTorch, Unreal Engine, InvokeAI, Stable Diffusion'
         },
-        slug: 'hi-rez-2024'
+        slug: 'hi-rez-2024',
+        desc: {
+            p1: 'From June 2024 to January 2025, I had the opportunity to work with a team of UI, concept, and FX artists \
+            at Hi-Rez Studios to explore use cases of generative AI tools across all stages of game art preceeding the launch of Smite 2. \
+            We focused on what was possible using open-source models and InvokeAI, an artist-first tool that enables the use of sketches and other work to guide the image generation process.\
+            Proof of concept testing showed that using these resources and other tools that I created, asset creation time could be reduced by up to 75% and turn day-long projects into <3-hour tasks. \ ',
+            plist: 'Here is a list of some of the specific things I worked on:',
+        } ,
+        list1: {
+            li1: 'Unreal Engine blueprint for automatically creating image datasets of in-game characters for use in custom model training',
+            li2: 'Automatic dataset captioner using Salesforce\'s BLIP model and JSONL file training paramaters generator',
+            li3: 'Image segmentation tool capable of separating AI-generated image into a PSD file with artist-friendly layers using the PSDTools library and K-Means clustering for further touchups in Photoshop',
+            li4: 'Node-based workflows inside Invoke for streamlining specific use cases (ex. Sketch to Painterly, Graybox to In-Game Screenshot)',
+            li5: 'Pipelines for remastering Smite 1 ability icons into the Smite 2 art style',
+            li6: '20+ Stable Diffusion LoRA image models for 3D characters, particle FX, UI icons, concept art, and personal art styles',
+        }
     },
 
     {

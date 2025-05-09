@@ -6,7 +6,7 @@ import { projectData, gamedevData, experienceData } from '../components/projectd
 export default function ProjectDetail() {
     const { slug } = useParams();
     const allProjects = [...projectData, ...gamedevData, ...experienceData];
-    const project = experienceData.find(p => p.slug === slug);
+    const project = allProjects.find(p => p.slug === slug);
 
     if (!project) {
         return <h2>Project not found</h2>;
@@ -16,21 +16,35 @@ export default function ProjectDetail() {
     return (
         <>
             <div className="backdrop" style={{ height: "400px", 
-                    backgroundImage:'url(${project.img})', 
-                    backgroundSize: "cover",
+                    backgroundImage:`url(${project.img})`, 
+                    backgroundSize:'cover',
                     backgroundPosition: "center"}}>
                 <div className="centered">
                     <h1>{project.title}</h1>
                 </div>
             </div>
 
-            <div class="site-body">
+            <div className="site-body">
                 <div className="project-detail">
-                <h1>{project.title}</h1>
-                <img src={project.img} alt={project.title} style={{ width: '300px' }} />
-                {project.details && Object.entries(project.details).map(([key, value]) => (
-                    <p key={key}><strong>{key}:</strong> {String(value)}</p>
-                ))}
+                    
+                    {/*<img src={project.img} alt={project.title} style={{ width: '300px' }} />
+                    {project.details && Object.entries(project.details).map(([key, value]) => (
+                        <p>{String(project.details.origin)}</p>
+                        //<p key={key}>{String(value)}</p>
+                    ))}*/}
+                    <h1>{String(project.details.origin)}</h1>
+                    <h1>{project.origin}</h1>
+                    <h2>{project.title}</h2>
+                    {project.desc && Object.entries(project.desc).map(([key, value]) => (
+                        <p align='left' key={key} style={{align:'left'}}>{String(value)}</p>
+                    ))}
+                    <ul align='left'>
+                        {project.list1 && Object.entries(project.list1).map(([key, value]) => (
+                            <li key={key}>{String(value)}</li>
+                        ))}
+                    </ul>
+                        
+
                 </div>
             </div>
 

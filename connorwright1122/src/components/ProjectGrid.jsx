@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function ProjectGrid({items}) {
     
-
     return (
         <div className="project-grid">
             {items.map((item, idx) => 
@@ -13,34 +12,29 @@ export default function ProjectGrid({items}) {
             
                     const ProjectCard = (
                         <>
-                        <div className="project-item"  id='project-img' style={{ backgroundImage: `url(${item.img})` }}></div>
-                        <div className="project-item-info">
-                            <h3>{item.title}</h3>
-                            {item.details &&
-                                Object.entries(item.details).map(([key, value]) => (
-                                <p key={key}>{String(value)}</p>
-                            ))}
-                        </div>
+                            <div className="project-item"  id='project-img' style={{ backgroundImage: `url(${item.img})` }}></div>
+                            <div className="project-item-info">
+                                <h3>{item.title}</h3>
+                                {item.details &&
+                                    Object.entries(item.details).map(([key, value]) => (
+                                    <p key={key}>{String(value)}</p>
+                                ))}
+                            </div>
                         </>
                     );
             
                     return hasSlug ? (
-                      <Link to={`/projects/${item.slug}`} key={item.slug}>
-                        {ProjectCard}
-                      </Link>
-                    ) : (
-                      <a
-                        key={idx}
-                        href={item.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {ProjectCard}
-                      </a>
+                        <Link to={`/project/${item.slug}`} key={item.slug}>
+                            {ProjectCard}
+                        </Link>
+                    ) : 
+                    (
+                        <a key={idx} href={item.link} target="_blank" rel="noopener noreferrer">
+                            {ProjectCard}
+                        </a>
                     );
-                  })}
-                
-                
+                })
+            }
         </div>
     );
 }
@@ -63,4 +57,4 @@ export default function ProjectGrid({items}) {
                 </a>
                 
             ))}  
-            */
+*/
