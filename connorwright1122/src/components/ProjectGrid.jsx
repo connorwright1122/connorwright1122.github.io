@@ -1,6 +1,7 @@
 import '../index.css';
 import { Link } from 'react-router-dom';
-import { InstagramEmbed } from 'react-social-media-embed';
+import { InstagramEmbed, YouTubeEmbed } from 'react-social-media-embed';
+import SocialLinkPreview from './SocialLinkPreview';
 
 
 export default function ProjectGrid({items}) {
@@ -15,10 +16,7 @@ export default function ProjectGrid({items}) {
                         <>
                             
                             {item.social_url && (
-                                //<div className="project-item"  id='project-img' style={{ backgroundImage: `url(${item.img})` }}></div>
-                                <div>
-                                    <InstagramEmbed url={item.social_url} height='505'/>
-                                </div>
+                                <SocialLinkPreview url={item.social_url} />
                             )}
                             {!item.social_url && (
                                 <div className="project-item"  id='project-img' style={{ backgroundImage: `url(${item.img})` }}></div>

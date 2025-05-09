@@ -146,7 +146,7 @@ export const projectData = [
     {
         title: '3D Character to 2D AI Imagery Pipeline',
         img: '/assets/images/projects/hirez-bp.png',
-        link: 'https://github.gatech.edu/pages/riyer75/4641/',
+        //link: 'https://github.gatech.edu/pages/riyer75/4641/',
         details: {
             origin: 'Hi-Rez Studios',
             date: 'Summer 2024 - Spring 2025',

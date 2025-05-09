@@ -8,6 +8,7 @@ import About from './pages/About'
 import Portfolio from './pages/Portfolio';
 import ProjectDetail from './pages/ProjectDetail';
 import Extras from './pages/Extras';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/project/:slug" element={<ProjectDetail />} />
         <Route path="/extras" element={<Extras />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function Portfolio() {
                 </div>
             </div>
 
-            <h1>!!!!!CURRENTLY UNDER RECONSTRUCTION!!!!!</h1>
+            <h1>NOTE: This page is CURRENTLY UNDER RECONSTRUCTION into react.js!</h1>
             
             <div className='siteBody'>
                 <h2 style={{textAlign:'left', paddingLeft:'60px'}}>2D Work (Film, Photography, Graphic Design)</h2>
