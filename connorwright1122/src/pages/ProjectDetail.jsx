@@ -1,6 +1,7 @@
 import '../index.css';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { projectData, gamedevData, experienceData } from '../components/projectdata';
+import { YouTubeEmbed } from 'react-social-media-embed';
 
 
 export default function ProjectDetail() {
@@ -20,6 +21,7 @@ export default function ProjectDetail() {
                     backgroundSize:'cover',
                     backgroundPosition: "center"}}>
                 <div className="centered">
+                    <h1>{String(project.details.origin)}</h1>
                     <h1>{project.title}</h1>
                 </div>
             </div>
@@ -31,10 +33,10 @@ export default function ProjectDetail() {
                     {project.details && Object.entries(project.details).map(([key, value]) => (
                         <p>{String(project.details.origin)}</p>
                         //<p key={key}>{String(value)}</p>
-                    ))}*/}
+                    ))}
                     <h1>{String(project.details.origin)}</h1>
-                    <h1>{project.origin}</h1>
-                    <h2>{project.title}</h2>
+                    <h2>{project.title}</h2>*/}
+                    <p>Tools: {project.details.tools}</p>
                     {project.desc && Object.entries(project.desc).map(([key, value]) => (
                         <p align='left' key={key} style={{align:'left'}}>{String(value)}</p>
                     ))}
@@ -43,6 +45,18 @@ export default function ProjectDetail() {
                             <li key={key}>{String(value)}</li>
                         ))}
                     </ul>
+                    {project.links && Object.entries(project.links).map(([key, value]) => {
+                        
+                        if (String(value[2]) === 'yt') {
+                            return <YouTubeEmbed url={value[1]} height='505'/> 
+
+                        } else if (value[2] === 'a') {
+                            return <a href={value[1]}><img src={value[3]} height='505'></img></a>
+                        }
+                        return <p align='left' key={key} style={{align:'left'}}>{String(value[0])}</p>
+                        //<p align='left' key={key} style={{align:'left'}}>{String(value)}</p>
+                        
+                    })}
                         
 
                 </div>

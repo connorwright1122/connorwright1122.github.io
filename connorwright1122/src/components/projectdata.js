@@ -33,8 +33,18 @@ export const experienceData = [
         details: {
             origin: 'The Home Depot',
             date: 'Summer 2024',
-            tools: 'Figma, Photoshop'
+            tools: 'Figma, Photoshop, MS Office Suite'
         },
+        slug: 'thd-2024',
+        desc: {
+            p1: 'In Summer 2024, I worked with the CX Reimagine Customer Services Workstream to analyze the customer\'s IVR entry experience. \
+            My project focused on researching the existing online and in-store entry points for the Home Services program and offering \
+            potential solutions for streamlining the IVR process.',
+        } ,
+        list1: {
+            li1: 'Analyzed online/in-store entry points for Services program to identify friction points in customer journey and IVR',
+            li2: 'Created actionable product strategy and hi-fi mockups in Figma to reduce 2000+ telephone entry points by 85%',
+        }
     },
 
     {
@@ -46,6 +56,27 @@ export const experienceData = [
             date: 'Spring 2024',
             tools: 'C#, NoSQL, MongoDB, Unity, Blender'
         },
+        slug: 'eml-2024',
+        desc: {
+            p1: 'In Spring 2024, I worked for Georgia Tech\'s Expressive Machinery Lab under Dr. Brian Magerko. \
+            I was lucky to be a part of the LuminAI team as they prepared for the world\'s first AI-Human improv dance performance, the culmination of 10+ years of prior research where human actions drive live generated responses from an embodied AI agent. \
+            My tasks primarily focused on creating Unity and MongoDB-based tools for the researchers to aid in data collection, visualization, and performance management.',
+            plist: 'Here is a list of some of the specific things I worked on:',
+        } ,
+        list1: {
+            li1: 'Developed gesture database viewer for 3D visualization of movements and simpler database file management / cleanup ',
+            li2: 'Created CSV-based interaction logging system with Azure Kinect SDK for use in KSU dance class for data collection',
+            li3: 'Various bug fixes for avatar\'s inverse kinematic bone system and animation playback',
+            li4: 'Designed algorithms to apply Viewpoints movement theories to AI avatar\'s gestures',
+            li5: 'Wrote scripts to parse live audience responses to questionnaire and playback inside Unity scene',
+            li6: 'Implemented UI designs and functionalities for avatar setting management during live performance'
+        },
+        links: {
+            //Description, link, type, image
+            lk1: ['Full Performance (Edited)','https://youtu.be/39KtahFtd3s?si=3arvfdaqyrA_gP42', 'yt', ''],
+            lk2: ['Full Performance (Unedited)','https://youtu.be/2769H-81EmI', 'yt', ''],
+            lk3: ['LuminAI Project Site','https://expressivemachinery.gatech.edu/luminai/', 'a', '/assets/images/projects/luminai-poster.png' ],
+        }
     },
 
     {
