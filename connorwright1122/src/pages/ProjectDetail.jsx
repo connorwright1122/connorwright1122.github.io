@@ -48,12 +48,13 @@ export default function ProjectDetail() {
                     {project.links && Object.entries(project.links).map(([key, value]) => {
                         
                         if (String(value[2]) === 'yt') {
-                            return <YouTubeEmbed url={value[1]} height='505'/> 
-
+                            return <><YouTubeEmbed url={value[1]} height='505'/><p>{String(value[0])}</p></>
                         } else if (value[2] === 'a') {
-                            return <a href={value[1]}><img src={value[3]} height='505'></img></a>
+                            return <a href={value[1]}><img src={value[3]} height='305'></img><p>{String(value[0])}</p></a>
+                        } else if (value[2] === 'img') {
+                            return <div><img src={value[3]} height='505'></img><p>{String(value[0])}</p></div>
                         }
-                        return <p align='left' key={key} style={{align:'left'}}>{String(value[0])}</p>
+                        //return <p align='left' key={key} style={{align:'left'}}>{String(value[0])}</p>
                         //<p align='left' key={key} style={{align:'left'}}>{String(value)}</p>
                         
                     })}
