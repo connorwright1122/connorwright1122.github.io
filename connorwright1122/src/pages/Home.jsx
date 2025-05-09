@@ -16,6 +16,7 @@ export default function Home() {
 
             <BackdropLink to="/about" title="About" background='/assets/images/backdrops/about-backdrop1.jpg'></BackdropLink>
             <BackdropLink to="/portfolio" title="Portfolio" background='/assets/images/backdrops/portfolio-backdrop-3.png'></BackdropLink>
+            <BackdropLink to="/extras" title="Extras" background='/assets/images/backdrops/connor-self-portrait.jpg'></BackdropLink>
 
         </>
     );

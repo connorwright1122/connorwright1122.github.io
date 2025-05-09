@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio';
 import ProjectDetail from './pages/ProjectDetail';
+import Extras from './pages/Extras';
 
 
 function App() {
@@ -18,9 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/project/:slug" element={<ProjectDetail />} />
-        {/*
         <Route path="/extras" element={<Extras />} />
-        */}
       </Routes>
     </div>
   );

@@ -8,6 +8,7 @@ export const twodData = [
             date: 'Summer 2024',
             tools: 'InvokeAI, ComfyUI, Stable Diffusion, DaVinci Resolve'
         },
+        social_url: 'https://www.instagram.com/p/C_6tbfaJ2Vh/?hl=en'
     },
 ];
 

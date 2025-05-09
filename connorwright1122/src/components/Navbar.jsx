@@ -17,11 +17,11 @@ export default function Navbar() {
                     <li>
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
-                    {/*
+                    
                     <li>
                         <Link to="/extras">Extras</Link>
                     </li>
-                    */}
+                    
                 </ul>
             </div>
         </header>

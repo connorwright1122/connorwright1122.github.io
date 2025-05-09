@@ -95,6 +95,8 @@ export const projectData = [
             date: 'Spring 2025 - Present',
             tools: 'React.js, Node.js, GCP, HTML/CSS/JS',
             description: 'Developer for film club\'s in-house short film streaming service hosting projects dating back to 2001',
+            award1: '1st Place - Digital Track',
+            award2: 'Mixed Reality Challenge'
         }
     },
 
