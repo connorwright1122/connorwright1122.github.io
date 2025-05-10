@@ -13,7 +13,7 @@ export default function SocialLinkPreview({ url }) {
   if (url.includes('instagram.com')) {
     return (
       <div>
-        <InstagramEmbed url={url}></InstagramEmbed>
+        <InstagramEmbed url={url} width="328" captioned></InstagramEmbed>
       </div>
     );
   }

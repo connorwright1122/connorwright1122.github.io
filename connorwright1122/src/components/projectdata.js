@@ -152,6 +152,22 @@ export const projectData = [
             date: 'Summer 2024 - Spring 2025',
             tools: 'Unreal Engine, Python/PyTorch/Pandas, InvokeAI',
             description: 'AI-powered tools and workflows for dataset generation, model training, and AI-generated image segmentation',
+        },
+        slug: 'hi-rez-2024',
+        desc: {
+            p1: 'From June 2024 to January 2025, I had the opportunity to work with a team of UI, concept, and FX artists \
+            at Hi-Rez Studios to explore use cases of generative AI tools across all stages of game art preceeding the launch of Smite 2. \
+            We focused on what was possible using open-source models and InvokeAI, an artist-first tool that enables the use of sketches and other work to guide the image generation process.\
+            Proof of concept testing showed that using these resources and other tools that I created, asset creation time could be reduced by up to 75% and turn day-long projects into <3-hour tasks. \ ',
+            plist: 'Here is a list of some of the specific things I worked on:',
+        } ,
+        list1: {
+            li1: 'Unreal Engine blueprint for automatically creating image datasets of in-game characters for use in custom model training',
+            li2: 'Automatic dataset captioner using Salesforce\'s BLIP model and JSONL file training paramaters generator',
+            li3: 'Image segmentation tool capable of separating AI-generated image into a PSD file with artist-friendly layers using the PSDTools library and K-Means clustering for further touchups in Photoshop',
+            li4: 'Node-based workflows inside Invoke for streamlining specific use cases (ex. Sketch to Painterly, Graybox to In-Game Screenshot)',
+            li5: 'Pipelines / models for remastering Smite 1 ability icons into the Smite 2 art style',
+            li6: '20+ Stable Diffusion LoRA image models for 3D characters, particle FX, UI icons, concept art, and personal art styles',
         }
     },
 
@@ -248,6 +264,27 @@ export const projectData = [
             date: 'Spring 2024',
             tools: 'C#, Unity, NoSQL, MongoDB, Blender',
             description: 'Tools for LuminAI developers/researchers - gesture database visualizer, performance manager UI, etc.',
+        }, 
+        slug: 'eml-2024',
+        desc: {
+            p1: 'In Spring 2024, I worked for Georgia Tech\'s Expressive Machinery Lab under Dr. Brian Magerko. \
+            I was lucky to be a part of the LuminAI team as they prepared for the world\'s first AI-Human improv dance performance, the culmination of 10+ years of prior research where human actions drive live generated responses from an embodied AI agent. \
+            My tasks primarily focused on creating Unity and MongoDB-based tools for the researchers to aid in data collection, visualization, and performance management.',
+            plist: 'Here is a list of some of the specific things I worked on:',
+        } ,
+        list1: {
+            li1: 'Developed gesture database viewer for 3D visualization of movements and simpler database file management / cleanup ',
+            li2: 'Created CSV-based interaction logging system with Azure Kinect SDK for use in KSU dance class for data collection',
+            li3: 'Various bug fixes for avatar\'s inverse kinematic bone system and animation playback',
+            li4: 'Designed algorithms to apply Viewpoints movement theories to AI avatar\'s gestures',
+            li5: 'Wrote scripts to parse live audience responses to questionnaire and playback inside Unity scene',
+            li6: 'Implemented UI designs and functionalities for avatar setting management during live performance'
+        },
+        links: {
+            //Description, link, type, image
+            lk1: ['Full Performance (Edited)','https://youtu.be/39KtahFtd3s?si=3arvfdaqyrA_gP42', 'yt', ''],
+            lk2: ['Full Performance (Unedited)','https://youtu.be/2769H-81EmI', 'yt', ''],
+            lk3: ['LuminAI Project Site','https://expressivemachinery.gatech.edu/luminai/', 'a', '/assets/images/projects/luminai-poster.png' ],
         }
     },
 
