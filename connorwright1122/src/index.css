@@ -205,6 +205,13 @@ nav {
   height: 255px;
 }
 
+@media (max-width: 1284px) {
+  #project-img {
+    width: 355px;
+    height: 225px;
+  }
+}
+
 .project-item.extra-gallery {
   border: 0px;
 }
