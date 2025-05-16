@@ -83,9 +83,33 @@ export const threedData = [
         },
         //social_url: 'https://connorwright1122.github.io/2700-Aframe/'
     },
+
+    {
+        title: 'Value Select Logo',
+        img: '/assets/images/extras/2700-aframe.png',
+        //link: 'https://connorwright1122.github.io/2700-Aframe/',
+        details: {
+            origin: '3D Logo for comedy-musician Value Select, featured in videos with +1M views',
+            date: 'Spring 2022',
+            tools: 'Blender'
+        },
+        social_url: 'https://youtu.be/4dsOJff34RM'
+    },
 ];
 
 export const designData = [
+    {
+        title: 'Son Lux - Breathe In (AI Visualizer)',
+        img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            //origin: 'Buzz Studios Filmmaking Club',
+            date: 'Summer 2023',
+            tools: 'Stable Diffusion, Deforum, DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/4MlnR7H0rV8'
+    },
+
     {
         title: 'LMC 2720 Final Project',
         img: '/assets/images/experience/hirez-logo.jpeg',

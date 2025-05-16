@@ -86,7 +86,24 @@ export const experienceData = [
         details: {
             origin: 'GT VIP - Unlocking and Analyzing Historical Texts',
             date: 'Spring 2024 - Spring 2025',
-            tools: 'C#, NoSQL, MongoDB, Unity, Blender'
+            tools: 'Python, PyTorch, SciKit Learn'
+        },
+        slug: 'vip',
+        desc: {
+            p1: 'Georgia Tech\'s Vertically Integrated Projects program allows students to work with faculty on long-term multidisciplinary research projects. \
+            I was a part of the Unlocking and Analyzing Historical Texts VIP for 3 semesters from Spring 2024 to Spring 2025.\
+            Our projects focused on applying Natual Language Processing tools and techniques to Ancient Greek and Early Modern English works using GT\'s High Perfomance Computing clusters. \
+            My subteam focused on analyzing the variation in orthography over time in Early Modern English texts using the EEBO digital library, \
+            denoting periods of major spelling change and the evolution of standardization of the English language in printing presses.',
+            plist: 'Here is a list of some of the tasks we worked on:',
+        } ,
+        list1: {
+            li1: 'Naive Bayes Classifier to predict decade based on TF-IDF tokens of document ',
+            li3: 'Word cloud visualization for most informative features (words) for each decade',
+            li4: 'Custom Levenstein Distance-based clustering of words and their variant spellings',
+            li5: 'Statistical tests for evaluating best cluster distance threshold',
+            li6: 'Visualizations for Spelling Variation Entropy per Decade per-cluster and for all word clusters',
+            li7: 'Hypotheses for correlated events that would cause periods of spelling normalization'
         },
     },
 
@@ -99,6 +116,33 @@ export const experienceData = [
             date: 'Spring 2023 - Spring 2024',
             tools: 'C#, Unity, NVIDIA Omniverse, LumaAI, Blender, Figma'
         },
+        slug: 'oit',
+        desc: {
+            p1: 'From Spring 2023 to Spring 2024 I worked under Didier Contis in Academic/Research Technology Division of Georgia Tech\'s Office of Information Technology. \
+            My team focused on exploring use cases of emerging technologies such as VR, real-time 3D engines, and photogrammetry for Georgia Tech courses, research labs, and student/faculty organizations. \
+            We also partnered with NVIDIA and Microsoft to evaluate usage of their new Omniverse and Mesh softwares for higher education.',
+            plist: 'Here is a list of some of the projects I led or worked on:',
+        } ,
+        list1: {
+            li1: 'Arts@Tech - Digital Art District for online exhibition of work by student organizations (interactive viewer for Erato Magazine editions, \
+            online theater for Buzz Studios short films, 3D motion capture performance by TekStyles dancers), and GT arts initiatives (photogrammetry scans of public art pieces)',
+            li2: 'Mechanical Engineering Department - Digitial Twin / Interactive Tour of the Student Competition Center Tour using Matterport photogrammetry scans of the space and vehicles built by motorsport student organizations',
+            li3: 'LMCFilms - Film pre-production workflow tutorial for storyboarding using photogrammetry scans',
+            li4: 'GT Campus Development - To-scale massing model of the entire Georgia Tech campus ',
+            li5: 'LMC 3407 - Camera Settings + Lens Size Learning Lab ',
+            li6: 'ME 2110 - Robot and competition arena task simulation',
+            li7: 'IMAGINE Lab - Kendeda Building Digital Twin',
+            li8: 'Aerospace Systems Design Lab - Moon Habitat Digital Twin',
+            li11: 'Architecture Department - Capstone Visualization with real-world location / time-of-day lighting',
+            li9: 'NVIDIA Omniverse - Light ray simulation of the Camera Obscura effect',
+            li10: 'NVIDIA Omniverse - Accurate physics-based trebuchet ',
+        },
+        links: {
+            //Description, link, type, image
+            lk1: ['OIT - NVIDIA Omniverse Projects','https://www.youtube.com/watch?v=RCdzroUtEZc&list=PLtgqXFBFu9f1bErwA9hQqkkWIuaq9S8dz', 'a', '/assets/images/experience/gt-oit-omniverse.jpeg'],
+            lk2: ['OIT - Microsoft Mesh Projects','https://www.youtube.com/watch?v=6S0_1a1b8k4&list=PLtgqXFBFu9f0wNr6N7sdX6bJ7HXPm-VOQ', 'a', '/assets/images/experience/gt-oit-nda.png'],
+            lk3: ['Co-worker\'s Write Up of the SCC Tour','https://www.jackenglish.net/portfolio/student-competition-center-photogrammetry-tour', 'a', '/assets/images/projects/gtxr-bdbi-vrsa.png' ],
+        }
     },
 
     {
