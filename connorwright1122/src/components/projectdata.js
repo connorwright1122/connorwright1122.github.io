@@ -1,6 +1,26 @@
 export const experienceData = [
     {
         title: 'Software Engineering Intern',
+        img: '/assets/images/experience/thd-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'The Home Depot',
+            date: 'Summer 2025',
+            tools: 'React, Python, FastAPI, OAuth, Glean, GCP, Google Cloud Store, BigQuery'
+        },
+        slug: 'thd-2025',
+        desc: {
+            p1: 'In Summer 2025, I worked with the Cart + Checkout Reliability Engineering Group to create a full-stack triage assistance tool.'
+        } ,
+        list1: {
+            li1: 'Developed full-stack triage assistance tool for SREs to reduce incident resolution time and revenue impact during outages using React, Python, FastAPI, OAuth, Glean, Google Cloud Store, and BigQuery',
+            li2: 'Built modules for system health monitoring, deployment validation, audit log analysis, dataset schema fetching, centralized resource display, URL / API endpoint mapping, Glean AI chatbot, and dynamic SQL query generation',
+            li3: 'Automated 40% of triage flow, reducing manual toil time, GCP costs, and improving accessibility for new SREs',
+        }
+    },
+    
+    {
+        title: 'Machine Learning Intern',
         img: '/assets/images/experience/hirez-logo.jpeg',
         //link: '#',
         details: {
@@ -13,7 +33,7 @@ export const experienceData = [
             p1: 'From June 2024 to January 2025, I had the opportunity to work with a team of UI, concept, and FX artists \
             at Hi-Rez Studios to explore use cases of generative AI tools across all stages of game art preceeding the launch of Smite 2. \
             We focused on what was possible using open-source models and InvokeAI, an artist-first tool that enables the use of sketches and other work to guide the image generation process.\
-            Proof of concept testing showed that using these resources and other tools that I created, asset creation time could be reduced by up to 75% and turn day-long projects into <3-hour tasks. \ ',
+            Proof of concept testing showed that using these resources and other tools that I created, asset creation time could be reduced by up to 75% and turn day-long projects into <3-hour tasks. ',
             plist: 'Here is a list of some of the specific things I worked on:',
         } ,
         list1: {
@@ -162,14 +182,38 @@ export const experienceData = [
   
 export const projectData = [
     {
+        title: 'Buzz Studios Location Scout Discord Bot',
+        img: '/assets/images/projects/buzzstudios-bot.png',
+        link: 'https://github.com/connorwright1122/location-scout-bot',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Summer 2025',
+            tools: 'Python, Discord API',
+            description: 'Discord bot to archive information for user-submitted film shoot locations',
+        }
+    },
+    
+    {
+        title: 'Buzz Studios Automated Waiver Generator',
+        img: '/assets/images/projects/buzzstudios-waiver.webp',
+        link: 'https://github.com/connorwright1122/waiver-generator',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Summer 2025',
+            tools: 'React, HTML/CSS/JS, Python, FastAPI',
+            description: 'Dynamic liability waiver generator to reduce time spent on-set by executives collecting signatures',
+        }
+    },
+    
+    {
         title: 'Buzz Studios Film Archive',
         img: '/assets/images/projects/buzzstudios-archive.png',
         link: 'https://github.com/Buzz-Studios-Development-Team/BuzzStudiosFilmArchive',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
             date: 'Spring 2025 - Present',
-            tools: 'React.js, Node.js, GCP, HTML/CSS/JS',
-            description: 'Developer for film club\'s in-house short film streaming service hosting projects dating back to 2001',
+            tools: 'React, Node.js, GCP, HTML/CSS/JS',
+            description: 'Developer for film club\'s in-house short film streaming service hosting projects dating back to 2001 and various admin tools',
         }
     },
 
@@ -240,12 +284,12 @@ export const projectData = [
     {
         title: 'Tachyon Deliverance',
         img: '/assets/images/projects/TachyonStill_2.5.2.jpg',
-        //link: 'https://github.com/connorwright1122/anim2spritesheet',
+        link: 'https://connorwright1122.github.io/tachyon-deliverance/',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
             date: 'Spring 2025',
             tools: 'Blender, DaVinci Resolve, Photoshop, Figma, InvokeAI, TRELLIS',
-            description: 'Director/Writer/Editor/VFX Artist/Prop Master for Sci-Fi Comedy short film with 20+ VFX shots',
+            description: 'Director/Writer/Editor/VFX Artist/Prop Master for Sci-Fi Comedy short film with 20+ VFX shots with AI-owered workflows for 2D / physical asset generation.',
         }
     },
 
