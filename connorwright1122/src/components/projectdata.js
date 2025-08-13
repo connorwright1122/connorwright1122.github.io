@@ -174,6 +174,22 @@ export const experienceData = [
             date: 'Winter 2022',
             tools: 'C#, Unity, Substance Painter, Blender, Figma'
         },
+        slug: 'shipwright-2022',
+        desc: {
+            p1: 'In Winter 2022, I participated in a two-week program where I developed a solo project under the guidance of the company’s cofounder. The experience covered the full spectrum of game development — from pitching and game design to 3D modeling and gameplay programming.',
+        } ,
+        list1: {
+            li1: 'Created active ragdoll physics system for player and NPC characters ',
+            li3: 'Designed 30+ optimized low-poly 3D models in Blender',
+            li4: 'Implemented ezy-slice Unity framework for realtime mesh fragmentation',
+            li5: 'Developed backend gameplay systems for stats and leaderboard monitoring'
+        },
+        links: {
+            //Description, link, type, image
+            lk1: ['Ragduel','https://conatordev.itch.io/ragduel', 'a', '/assets/images/projects/GameDev/ragduel.png'],
+            lk1: ['Ragduel Pitch Deck','/assets/images/projects/GameDev/ragduel-pitch-deck.pdf', 'a', '/assets/images/projects/GameDev/ragduel-pitch.png'],
+        }
+        
     },
 
 
