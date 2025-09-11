@@ -19,16 +19,16 @@ export default function Portfolio() {
             <h1>NOTE: This page is CURRENTLY UNDER RECONSTRUCTION into react.js!</h1>
             
             <div className='siteBody'>
-                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>VFX Tests / Animations</h2>
+                <h2>VFX Tests / Animations</h2>
                 <ProjectGrid items={vfxData}></ProjectGrid>
 
-                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>3D Art</h2>
+                <h2>3D Art</h2>
                 <ProjectGrid items={threedData}></ProjectGrid>
 
-                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>Graphic Design</h2>
+                <h2>Graphic Design</h2>
                 <ProjectGrid items={designData}></ProjectGrid>
 
-                <h2 style={{textAlign:'left', paddingLeft:'60px'}}>Game Dev</h2>
+                <h2>Game Dev</h2>
                 <ProjectGrid items={gamedevData}></ProjectGrid>
 
             </div>

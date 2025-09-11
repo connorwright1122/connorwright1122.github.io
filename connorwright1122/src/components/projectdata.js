@@ -6,7 +6,8 @@ export const experienceData = [
         details: {
             origin: 'The Home Depot',
             date: 'Summer 2025',
-            tools: 'React, Python, FastAPI, OAuth, Glean, GCP, Google Cloud Store, BigQuery'
+            tools: 'React, Python, FastAPI, OAuth, Glean, GCP, Google Cloud Store, BigQuery',
+            description: 'Triage-assistance tool for SREs'
         },
         slug: 'thd-2025',
         desc: {
@@ -26,7 +27,8 @@ export const experienceData = [
         details: {
             origin: 'Hi-Rez Studios',
             date: 'Summer 2024 - Spring 2025',
-            tools: 'Python/PyTorch, Unreal Engine, InvokeAI, Stable Diffusion'
+            tools: 'Python/PyTorch, Unreal Engine, InvokeAI, Stable Diffusion',
+            description: 'Generative AI tools / diffusion models for artists'
         },
         slug: 'hi-rez-2024',
         desc: {
@@ -53,7 +55,8 @@ export const experienceData = [
         details: {
             origin: 'The Home Depot',
             date: 'Summer 2024',
-            tools: 'Figma, Photoshop, MS Office Suite'
+            tools: 'Figma, Photoshop, MS Office Suite',
+            description: 'UX research on Home Services IVR systems + reworked UI designs'
         },
         slug: 'thd-2024',
         desc: {
@@ -63,7 +66,7 @@ export const experienceData = [
         } ,
         list1: {
             li1: 'Analyzed online/in-store entry points for Services program to identify friction points in customer journey and IVR',
-            li2: 'Created actionable product strategy and hi-fi mockups in Figma to reduce 2000+ telephone entry points by 85%',
+            li2: 'Created actionable product strategy and hi-fi mockups in Figma that lead to reduction of 2000+ telephone entry points by 85% within 6 months',
         }
     },
 
@@ -74,7 +77,8 @@ export const experienceData = [
         details: {
             origin: 'Expressive Machinery Lab',
             date: 'Spring 2024',
-            tools: 'C#, NoSQL, MongoDB, Unity, Blender'
+            tools: 'C#, NoSQL, MongoDB, Unity, Blender',
+            description: 'Database tools and interaction design for embodied ML agent'
         },
         slug: 'eml-2024',
         desc: {
@@ -106,7 +110,8 @@ export const experienceData = [
         details: {
             origin: 'GT VIP - Unlocking and Analyzing Historical Texts',
             date: 'Spring 2024 - Spring 2025',
-            tools: 'Python, PyTorch, SciKit Learn'
+            tools: 'Python, PyTorch, SciKit Learn',
+            description: 'NLP tools and analysis for Early Modern texts'
         },
         slug: 'vip',
         desc: {
@@ -134,7 +139,8 @@ export const experienceData = [
         details: {
             origin: 'GT OIT - Academic/Research Technology Division',
             date: 'Spring 2023 - Spring 2024',
-            tools: 'C#, Unity, NVIDIA Omniverse, LumaAI, Blender, Figma'
+            tools: 'C#, Unity, NVIDIA Omniverse, LumaAI, Blender, Figma',
+            description: 'Prototypes for emerging 3D / VR / AI technologies'
         },
         slug: 'oit',
         desc: {
@@ -172,7 +178,8 @@ export const experienceData = [
         details: {
             origin: 'Shipwright Studios',
             date: 'Winter 2022',
-            tools: 'C#, Unity, Substance Painter, Blender, Figma'
+            tools: 'C#, Unity, Substance Painter, Blender, Figma',
+            description: 'Generalist Unity game development training'
         },
         slug: 'shipwright-2022',
         desc: {
@@ -611,3 +618,116 @@ export const gamedevData = [
         }
     },
 ];
+
+export const classData = [
+  {
+    "number": "CS 1331",
+    "name": "Intro to Object Oriented Programming",
+    "skills": "Java, OOP, debugging, software design basics"
+  },
+  {
+    "number": "CS 1332",
+    "name": "Data Structures & Algorithms",
+    "skills": "Java, data structures, algorithms, complexity analysis"
+  },
+  {
+    "number": "CS 2050",
+    "name": "Intro to Discrete Math",
+    "skills": "logic, proofs, sets, functions, combinatorics, graph theory"
+  },
+  {
+    "number": "CS 2110",
+    "name": "Computer Organization & Programming",
+    "skills": "C, assembly, memory management, low-level programming"
+  },
+  {
+    "number": "CS 2340",
+    "name": "Objects & Design",
+    "skills": "Java, MVC, design patterns, Git, team projects, Agile practices"
+  },
+  {
+    "number": "CS 3001",
+    "name": "Computing & Society",
+    "skills": "ethics in computing, technology policy, societal impacts of computing"
+  },
+  {
+    "number": "CS 3451",
+    "name": "Computer Graphics",
+    "skills": "OpenGL, C++, linear algebra, rendering pipelines, transformations, ray tracing"
+  },
+  {
+    "number": "CS 3510",
+    "name": "Design & Analysis of Algorithms",
+    "skills": "algorithm design, proofs of correctness, NP-completeness"
+  },
+  {
+    "number": "CS 3600",
+    "name": "Intro to Artificial Intelligence",
+    "skills": "Python, search algorithms, heuristics, probability, machine learning basics"
+  },
+  {
+    "number": "CS 3630",
+    "name": "Intro to Robotics & Perception",
+    "skills": "Python, ROS, computer vision, robotics, SLAM, perception"
+  },
+  {
+    "number": "CS 4488",
+    "name": "Procedural Content Generation",
+    "skills": "C#, generative algorithms, randomness, game design tools, Unity, Unreal"
+  },
+  {
+    "number": "CS 4641",
+    "name": "Machine Learning",
+    "skills": "Python, scikit-learn, regression, classification, clustering, neural networks"
+  },
+  {
+    "number": "CS 4650",
+    "name": "Computer Audio",
+    "skills": "JavaScript, signal processing, digital audio synthesis, audio programming"
+  },
+  {
+    "number": "CS 4731",
+    "name": "Game AI",
+    "skills": "Unity, C#, pathfinding, decision trees, behavior trees, state machines, reinforcement learning basics"
+  },
+  {
+    "number": "ISYE 3770",
+    "name": "Statistics & Applications",
+    "skills": "R, Python, hypothesis testing, regression, probability, data analysis"
+  },
+  {
+    "number": "LMC 2700",
+    "name": "Intro to Computational Media",
+    "skills": "HTML/CSS/JavaScript, Three.js, creative coding, Python, media studies, HCI basics"
+  },
+  {
+    "number": "LMC 2720",
+    "name": "Principles of Visual Design",
+    "skills": "Adobe Creative Suite, Figma, visual design, typography, layout"
+  },
+  {
+    "number": "LMC 3252",
+    "name": "Studies in Film & Television",
+    "skills": "film theory, media analysis, narrative design"
+  },
+  {
+    "number": "MATH 1554",
+    "name": "Linear Algebra",
+    "skills": "matrices, vector spaces, eigenvalues"
+  },
+  {
+    "number": "MATH 2550",
+    "name": "Multivariable Calculus",
+    "skills": "partial derivatives, multivariable optimization, vector calculus"
+  },
+  {
+    "number": "MATH 3012",
+    "name": "Applied Combinatorics",
+    "skills": "combinatorics, probability, graph theory, discrete optimization"
+  },
+  {
+    "number": "PHYS 2211",
+    "name": "Intro Physics I",
+    "skills": "classical mechanics, problem solving, modeling physical systems"
+  }
+]

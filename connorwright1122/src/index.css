@@ -80,6 +80,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
+  padding-left: 0px;
 }
 h3 {
   text-transform: uppercase;
@@ -118,7 +119,7 @@ nav {
 
 .navbar-left {
   float: left;
-  padding-left: 20px;
+  //padding-left: 20px;
 }
 
 .navbar-right {
@@ -130,13 +131,18 @@ nav {
   list-style: none;
   display: flex;
   flex-direction: row;
+
+  padding: 0;   /* Remove browser default left padding */
+  //margin: 0;    /* (Optional) also reset margin */
   
 }
 
 .navigation li {
   
-  margin: 0 10px;
-  padding: 0 10px;
+  //margin: 0 10px;
+  //padding: 0 10px;
+
+  padding: 0 20px;   /* Remove browser default left padding */
   
 }
 
@@ -152,8 +158,8 @@ nav {
 .nav-v2 h1 {
   margin-bottom: 10px; /* Adjust the margin as needed */
   text-align: center;
-  padding-left: 20px;
-  padding-right: 0px;
+  //padding-left: 20px;
+  //padding-right: 0px;
 }
 
 /* Optional: Reduce the spacing between ul.navigation and its list items */
@@ -162,15 +168,16 @@ nav {
 }
 
 .nav-v2 .navigation li {
-  margin: 0 10px; /* Adjust margins between list items as needed */
-  padding: 0 10px; /* Adjust padding between list items as needed */
+  //margin: 0 10px; /* Adjust margins between list items as needed */
+  //padding: 0 10px; /* Adjust padding between list items as needed */
 }
 
 
+/*
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-  gap: 10px; /* Gap between columns and rows */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
   border: 1px solid #EBEAE9;
   border-left: 5px;
   border-right: 5px;
@@ -185,11 +192,6 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-
-  /*
-  width: 355px;
-  height: 225px; 
-  */
   
   border: 1px solid #EBEAE9;
   margin: 1px;
@@ -199,6 +201,30 @@ nav {
   background-position: center;
   
 }
+  */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto); /* shrink to fit items */
+  gap: 10px;
+  justify-content: center;                /* center the whole grid */
+  margin: 0 auto;                         /* center container itself */
+  max-width: 1200px;                      /* optional, keeps it neat */
+  box-sizing: border-box;
+}
+
+.project-item {
+  width: 385px;       /* give consistent item width */
+  height: auto;
+  max-width: 90vw;
+
+  border: 1px solid #EBEAE9;
+  margin: 1px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 #project-img {
   width: 385px;
@@ -215,33 +241,72 @@ nav {
 .project-item.extra-gallery {
   border: 0px;
 }
+
+/*
 .project-item-info {
   padding-left: 0px;
   margin: 0;
   text-align: left;
   line-height: .2;
   padding-bottom: 30px;
-  
-  
 }
+*/
+.project-item-info {
+  padding-left: 0;
+  margin: 0;
+  text-align: left;        /* keep text left-aligned */
+  line-height: 1.4;
+  padding-bottom: 30px;
+
+  width: 100%;             /* make it span the width of the card */
+  max-width: 100%;         /* prevent overflow */
+  box-sizing: border-box;  /* include padding in width */
+  word-wrap: break-word;   /* prevent long words from overflowing */
+  overflow-wrap: break-word;
+}
+
+
 
 @media (max-width: 1284px) {
   .project-grid {
       grid-template-columns: repeat(1, 1fr); /* Single column for mobile */
+      justify-items: center;
   }
 
+  /*
   .project-item {
-      width: 100%; /* Full width for mobile */
-      height: 225px; /* Let the content determine the height */
-      margin: 10px 0; /* Add some space between items */
+      width: 100%; 
+      height: 225px; 
+      margin: 10px 0; 
   }
 
   .project-item.extra-gallery {
-      width: 355px; /* Full width for mobile */
-      height: 225px; /* Let the content determine the height */
-      margin: 10px 0; /* Add some space between items */
+      width: 355px; 
+      height: 225px; 
+      margin: 10px 0; 
       border: 0px;
   }
+      */
+  
+  .project-item {
+    width: auto; /* let content define width instead of 100% */
+    max-width: 90vw;  /* keeps items inside screen */
+    //word-wrap: break-word; /* prevents long words from overflowing */
+    //overflow-wrap: break-word;
+    //text-align: center; /* optional if you want description centered */
+  }
+
+  .project-item-info {
+    width: auto; /* let content define width instead of 100% */
+    max-width: 355px;  /* keeps items inside screen */
+  }
+
+  .project-item.extra-gallery {
+    width: 355px;
+    max-width: 90vw; /* prevents overflow on small phones */
+  }
+
+  
 }
 
 @media (max-width: 1284px) {
