@@ -205,30 +205,6 @@ export const experienceData = [
   
 export const projectData = [
     {
-        title: 'Buzz Studios Location Scout Discord Bot',
-        img: '/assets/images/projects/buzzstudios-bot.png',
-        link: 'https://github.com/connorwright1122/location-scout-bot',
-        details: {
-            origin: 'Buzz Studios Filmmaking Club',
-            date: 'Summer 2025',
-            tools: 'Python, Discord API',
-            description: 'Discord bot to archive information for user-submitted film shoot locations',
-        }
-    },
-    
-    {
-        title: 'Buzz Studios Automated Waiver Generator',
-        img: '/assets/images/projects/buzzstudios-waiver.webp',
-        link: 'https://github.com/connorwright1122/waiver-generator',
-        details: {
-            origin: 'Buzz Studios Filmmaking Club',
-            date: 'Summer 2025',
-            tools: 'React, HTML/CSS/JS, Python, FastAPI',
-            description: 'Dynamic liability waiver generator to reduce time spent on-set by executives collecting signatures',
-        }
-    },
-    
-    {
         title: 'Buzz Studios Film Archive',
         img: '/assets/images/projects/buzzstudios-archive.png',
         link: 'https://github.com/Buzz-Studios-Development-Team/BuzzStudiosFilmArchive',
@@ -249,6 +225,30 @@ export const projectData = [
             date: 'Spring 2025 - Present',
             tools: 'C#, Unity, Python/PyTorch, ADB',
             description: 'ML-based prediction of heartrate using micro-movements of VR headset motion sensor data',
+        }
+    },
+    
+    {
+        title: 'Buzz Studios Location Scout Discord Bot',
+        img: '/assets/images/projects/buzzstudios-bot.png',
+        link: 'https://github.com/connorwright1122/location-scout-bot',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Summer 2025',
+            tools: 'Python, Discord API',
+            description: 'Discord bot to archive information for user-submitted film shoot locations',
+        }
+    },
+    
+    {
+        title: 'Buzz Studios Automated Waiver Generator',
+        img: '/assets/images/projects/buzzstudios-waiver.webp',
+        link: 'https://github.com/connorwright1122/waiver-generator',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Summer 2025',
+            tools: 'React, HTML/CSS/JS, Python, FastAPI',
+            description: 'Dynamic liability waiver generator to reduce time spent on-set by executives collecting signatures',
         }
     },
 
@@ -311,8 +311,8 @@ export const projectData = [
         details: {
             origin: 'Buzz Studios Filmmaking Club',
             date: 'Spring 2025',
-            tools: 'Blender, DaVinci Resolve, Photoshop, Figma, InvokeAI, TRELLIS',
-            description: 'Director/Writer/Editor/VFX Artist/Prop Master for Sci-Fi Comedy short film with 20+ VFX shots with AI-owered workflows for 2D / physical asset generation.',
+            tools: 'Blender, DaVinci Resolve, Photoshop, Figma, InvokeAI, TRELLIS, Hunyuan 3D',
+            description: 'Director/Writer/Editor/VFX Artist/Prop Master for Sci-Fi Comedy short film with 20+ VFX shots with AI-powered workflows for 2D / physical asset generation.',
         }
     },
 
@@ -324,7 +324,7 @@ export const projectData = [
             origin: 'GT VIP Program',
             date: 'Spring 2024 - Spring 2025',
             tools: 'Python, PyTorch, SLURM',
-            description: 'Tools for analyzing orthography / spelling variation over time in Early Modern English Texts',
+            description: 'HPC tools for analyzing orthography / spelling variation over time in Early Modern English Texts',
         }
     },
 
@@ -360,7 +360,7 @@ export const projectData = [
             origin: 'Product @ GT / Invoke AI Collaboration',
             date: 'Spring 2024',
             tools: 'InvokeAI, Figma, Photoshop',
-            description: 'Proposed redesign / features for prompt-building experience of Invoke AI image generator',
+            description: 'Proposed redesign / features for prompt-building experience of OSS Invoke AI image generator',
         }
     },
 

@@ -12,20 +12,18 @@ export default function Portfolio() {
                     backgroundSize: "cover",
                     backgroundPosition: "center"}}>
                 <div className="centered">
-                    <h1>Extras</h1>
+                    <h1>Art</h1>
                 </div>
             </div>
-
-            <h1>NOTE: This page is CURRENTLY UNDER RECONSTRUCTION into react.js!</h1>
             
             <div className='siteBody'>
-                <h2>VFX Tests / Animations</h2>
+                <h2>Film / VFX / Animation</h2>
                 <ProjectGrid items={vfxData}></ProjectGrid>
 
                 <h2>3D Art</h2>
                 <ProjectGrid items={threedData}></ProjectGrid>
 
-                <h2>Graphic Design</h2>
+                <h2>2D Art / Graphic Design</h2>
                 <ProjectGrid items={designData}></ProjectGrid>
 
                 <h2>Game Dev</h2>

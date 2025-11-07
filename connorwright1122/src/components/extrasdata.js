@@ -1,5 +1,41 @@
 export const vfxData = [
     {
+        title: 'Traffic Flow',
+        img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'Bumblebee Tuna Cans Film Festival',
+            date: 'Fall 2025',
+            tools: 'Blender, DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
+    },
+
+    {
+        title: 'Tachyon Deliverance',
+        img: '/assets/images/projects/TachyonStill_2.5.2.jpg',
+        link: 'https://films.buzzstudios.org/tachyondeliverance',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2025',
+            tools: 'Blender, DaVinci Resolve, Figma, Invoke AI, Bambu Studio, Hunyuan3D'
+        },
+        //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
+    },
+
+    {
+        title: 'Tachyon Deliverance Q&A',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2025',
+            tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/SLMdLDK1_P0'
+    },
+    
+    {
         title: 'Tachyon Deliverance VFX Test',
         img: '/assets/images/experience/hirez-logo.jpeg',
         //link: '#',
@@ -46,9 +82,70 @@ export const vfxData = [
         },
         social_url: 'https://youtu.be/Uk1OkkyN020'
     },
+    
+    {
+        title: 'LMC 3252 - Spatial Analysis',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'LMC 3252 - Studies in Film & Television',
+            date: 'Spring 2023',
+            tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/IY7mXzEFMeA'
+    },
+
+    {
+        title: 'STEM Capstone / RUINAE Devlog',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'HS STEM Capstone',
+            date: 'Spring 2022',
+            tools: 'DaVinci Resolve, Unity, Blender'
+        },
+        social_url: 'https://youtu.be/9sXVUT4wrY0'
+    },
+
+    {
+        title: 'The Legacy of Nick Fast',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'HS Film Capstone',
+            date: 'Spring 2022',
+            tools: 'DaVinci Resolve, Blender'
+        },
+        social_url: 'https://youtu.be/184llFZDiiI?si=xY8Hb8D8DM2_NYbT'
+    },
+
 ];
 
 export const threedData = [
+    {
+        title: 'Atop a Mountain of Glass',
+        img: '/assets/images/extras/AtopAMountainOfGlass.png',
+        //link: '#',
+        details: {
+            //origin: 'Buzz Studios Filmmaking Club',
+            date: 'Fall 2024',
+            tools: 'Blender, Photoshop'
+        },
+        //social_url: 'https://www.instagram.com/p/DQX5xZyic1Z/?hl=en&img_index=1'
+    },
+    
+    {
+        title: 'you are here',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'Erato Literary & Arts Magazine (54th Edition)',
+            date: 'Fall 2023',
+            tools: 'Blender, Figma, Photoshop'
+        },
+        social_url: 'https://www.instagram.com/p/DQX5xZyic1Z/?hl=en&img_index=1'
+    },
+    
     {
         title: 'Self Portrait',
         img: '/assets/images/experience/hirez-logo.jpeg',
@@ -99,6 +196,42 @@ export const threedData = [
 
 export const designData = [
     {
+        title: 'Cleanup Crew - Logo',
+        img: '/assets/images/extras/cleanup-crew.JPG',
+        //link: 'https://core-lab.org/coremusic/',
+        details: {
+            //origin: 'Buzz Studios Filmmaking Club',
+            date: 'Fall 2025',
+            tools: 'Photoshop'
+        },
+        //social_url: 'https://youtu.be/4MlnR7H0rV8'
+    },
+    
+    {
+        title: 'Buzz Studios - 2024-2025 Shirt',
+        img: '/assets/images/extras/shirts/BS_Shirt_Back_1.png',
+        //link: 'https://core-lab.org/coremusic/',
+        details: {
+            //origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2025',
+            tools: 'Photoshop, Inkscape'
+        },
+        //social_url: 'https://youtu.be/4MlnR7H0rV8'
+    },
+
+    {
+        title: 'Cortical Resilience Lab - Visual Artist',
+        img: '/assets/images/extras/corelab-visualartist.png',
+        link: 'https://core-lab.org/coremusic/',
+        details: {
+            //origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2025',
+            tools: 'Acrylic'
+        },
+        //social_url: 'https://youtu.be/4MlnR7H0rV8'
+    },
+    
+    {
         title: 'Son Lux - Breathe In (AI Visualizer)',
         img: '/assets/images/experience/hirez-logo.jpeg',
         //link: '#',
@@ -132,5 +265,17 @@ export const designData = [
             tools: 'Figma, Photoshop'
         },
         social_url: 'https://www.instagram.com/p/CvyNwBzJ1-8/?hl=en&img_index=1'
+    },
+
+    {
+        title: 'Ivan Allen College Student Advisory Board - 2023-2024 Shirt',
+        img: '/assets/images/extras/shirts/IAC-SAB-Shirt-Multi.png',
+        //link: 'https://core-lab.org/coremusic/',
+        details: {
+            //origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2023',
+            tools: 'Figma, Inkscape'
+        },
+        //social_url: 'https://youtu.be/4MlnR7H0rV8'
     },
 ];

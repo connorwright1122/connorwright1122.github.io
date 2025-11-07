@@ -13,12 +13,15 @@ export default function SocialLinkPreview({ url }) {
   if (url.includes('instagram.com')) {
     return (
       <div>
-        <InstagramEmbed url={url} width="328" captioned></InstagramEmbed>
+        <InstagramEmbed url={url} width={355} captioned></InstagramEmbed>
       </div>
     );
   }
 
   /*
+  <div>
+        <InstagramEmbed url={url} width="328" captioned></InstagramEmbed>
+        </div>
   if (url.includes('twitter.com')) {
     return (
       <div>

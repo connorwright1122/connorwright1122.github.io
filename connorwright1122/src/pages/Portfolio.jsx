@@ -11,7 +11,7 @@ export default function Portfolio() {
                     backgroundSize: "cover",
                     backgroundPosition: "center"}}>
                 <div className="centered">
-                    <h1>Portfolio</h1>
+                    <h1>Work</h1>
                 </div>
             </div>
             
@@ -25,21 +25,6 @@ export default function Portfolio() {
                 <h2>Game Dev</h2>
                 <ProjectGrid items={gamedevData}></ProjectGrid>
 
-                {/*
-                <h2>Classes</h2>
-                <>
-                    <ul style={{textAlign:'left'}}>
-                        {classData.map((c, idx) => (
-                            <>
-                                <li key={idx}>{c.number} - {c.name}</li>
-                                <ul>
-                                    <li>{c.skills}</li>
-                                </ul>
-                            </>
-                        ))}
-                    </ul>
-                </>
-                */}
                 <h2>Classes</h2>
                 <div style={{display: "flex", justifyContent: "center"}}>
                 <table style={{ width: "80%", textAlign: "left", borderCollapse: "collapse"}}>

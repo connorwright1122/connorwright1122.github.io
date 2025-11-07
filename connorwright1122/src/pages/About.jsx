@@ -16,12 +16,14 @@ export default function About() {
             <div class="site-body">
                 <p>Hi, I'm Connor! I'm a fourth year Computer Science student at Georgia Tech with concentrations in
                     Artificial Intelligence and Computer Graphics / Media. </p>
-                <p>I will be graduating in Spring 2026 and am seeking software engineering or technical artist roles. You can find my past experience and projects on the Portfolio tab.</p>
+                <p>I will be graduating in Spring 2026 and am seeking Software Engineering, Technical Artist, or Creative Technologist roles. 
+                    I have experience in full-stack programming, generative AI tools, machine learning research, and 3D / VR development.
+                    You can find my past experience and projects on the Work tab.</p>
                 <p>I am fascinated by the intersection of art and technology and how we can use emerging technologies such as XR and AI tools to enhance human creativity. 
                     In my spare time you can find me building tools for artists or working on my own endless stream of passion projects. 
                     I also love everything to do with film and VFX - keep an eye out for my short film Tachyon Deliverance coming soon to a galaxy near you (email me to get the screening link).
                     Additionally, I dabble in photography, 3D modeling, hiking, and game development. 
-                    You can find some of my work on the Extras page.</p>
+                    You can find some of my creative work on the Art page.</p>
             </div>
             
             <a href="/assets/documents/ConnorWrightResume.pdf" target="_blank">

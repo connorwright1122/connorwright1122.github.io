@@ -15,11 +15,11 @@ export default function Navbar() {
                     </li>
                     
                     <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/portfolio">Work</Link>
                     </li>
                     
                     <li>
-                        <Link to="/extras">Extras</Link>
+                        <Link to="/extras">Art</Link>
                     </li>
                     
                 </ul>
