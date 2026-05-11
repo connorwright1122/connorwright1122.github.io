@@ -205,12 +205,25 @@ export const experienceData = [
   
 export const projectData = [
     {
+        title: 'KinoPilot - AR Filmmaking',
+        img: '/assets/images/projects/buzzstudios-archive.png',
+        link: 'https://devpost.com/software/ar-script-supervisor',
+        details: {
+            origin: 'ImmerseGT XR Hackathon',
+            date: 'Spring 2026',
+            tools: 'Snap Spectacles, Lens Studio, JS, Gemini API',
+            description: 'Filmmaking multitool for indie film directors built for Spectacles AR glasses, including screenplay viewer, shot notes logger, and AI script supervisor',
+            award1: '1st Place - Snap AR Track',
+        }
+    },
+    
+    {
         title: 'Buzz Studios Film Archive',
         img: '/assets/images/projects/buzzstudios-archive.png',
         link: 'https://github.com/Buzz-Studios-Development-Team/BuzzStudiosFilmArchive',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
-            date: 'Spring 2025 - Present',
+            date: 'Spring 2025 - Spring 2026',
             tools: 'React, Node.js, GCP, HTML/CSS/JS',
             description: 'Developer for film club\'s in-house short film streaming service hosting projects dating back to 2001 and various admin tools',
         }
@@ -222,10 +235,19 @@ export const projectData = [
         //link: 'https://github.com/connorwright1122/anim2spritesheet',
         details: {
             origin: 'VR @ GT / Big Data Big Impact Club',
-            date: 'Spring 2025 - Present',
-            tools: 'C#, Unity, Python/PyTorch, ADB',
-            description: 'ML-based prediction of heartrate using micro-movements of VR headset motion sensor data',
-        }
+            date: 'Spring 2025 - Spring 2026',
+            tools: 'C#, Unity, Python/PyTorch, ADB, JavaScript',
+            description: 'ML-based prediction of heartrate using micro-movements of VR headset motion sensor data for biometrics-driven dynamic 3D scenes',
+        },
+        slug: 'gtxr-hr',
+        desc: {
+            p1: 'As part of the VR State Analysis Project, we created a VR heart-rate detection system that uses heartbeat-induced micro-movements in the headset to estimate a player’s BPM. \
+            We developed localized data-collection scripts to train our custom machine-learning models, while a lightweight client sends headset motion data to a server for real-time heartbeat inference. \
+            The system also integrates with a Polar H10 sensor for ground-truth comparison. \
+            Our demo scene reimagines the classic VR plank experience, capturing heart-rate changes at key moments and displaying a chart of BPM over time. \
+            This proof-of-concept highlights how real-time biometrics can be used to dynamically shape a player’s in-game world and emotional experience.',
+            plist: 'Here is a list of some of the specific things I worked on:',
+        } 
     },
     
     {
@@ -523,6 +545,18 @@ export const projectData = [
   
 export const gamedevData = [
     {
+        title: 'Slalomonella',
+        img: '/assets/images/extras/gamedev/salmon.png',
+        link: 'https://conatordev.itch.io/slalomonella',
+        details: {
+            origin: 'Big Mode Game Jam 2026',
+            date: 'Spring 2026',
+            tools: 'C#, Unity, Blender',
+            description: 'Salmon-based platformer',
+        }
+    },
+    
+    {
         title: 'Kaijumo!',
         img: '/assets/images/extras/gamedev/kaijumo.jpg',
         link: 'https://conatordev.itch.io/kaijumo',
@@ -621,6 +655,11 @@ export const gamedevData = [
 
 export const classData = [
   {
+    "number": "AECT 2030",
+    "name": "Leaders in Progress & Service for the Creative Industries",
+    "skills": "Design thinking, creative entrepreneurship, storytelling principles"
+  },
+  {
     "number": "CS 1331",
     "name": "Intro to Object Oriented Programming",
     "skills": "Java, OOP, debugging, software design basics"
@@ -671,6 +710,11 @@ export const classData = [
     "skills": "Python, ROS, computer vision, robotics, SLAM, perception"
   },
   {
+    "number": "CS 4476",
+    "name": "Computer Vision",
+    "skills": "Python, Pytorch, image convolution, SIFT feature matching, neural networks, deep learning, semantic segmentation, neural radiance fields"
+  },
+  {
     "number": "CS 4488",
     "name": "Procedural Content Generation",
     "skills": "C#, generative algorithms, randomness, game design tools, Unity, Unreal"
@@ -688,7 +732,7 @@ export const classData = [
   {
     "number": "CS 4731",
     "name": "Game AI",
-    "skills": "Unity, C#, pathfinding, decision trees, behavior trees, state machines, reinforcement learning basics"
+    "skills": "Unity, C#, pathfinding, decision trees, behavior trees, state machines, reinforcement learning"
   },
   {
     "number": "ISYE 3770",
@@ -698,7 +742,7 @@ export const classData = [
   {
     "number": "LMC 2700",
     "name": "Intro to Computational Media",
-    "skills": "HTML/CSS/JavaScript, Three.js, creative coding, Python, media studies, HCI basics"
+    "skills": "HTML/CSS/JavaScript, Three.js, creative coding, Python, media studies, HCI"
   },
   {
     "number": "LMC 2720",
@@ -709,6 +753,11 @@ export const classData = [
     "number": "LMC 3252",
     "name": "Studies in Film & Television",
     "skills": "film theory, media analysis, narrative design"
+  },
+  {
+    "number": "LMC 3403",
+    "name": "Tech Communication",
+    "skills": "Figma, technical communication, design accessibility, project management"
   },
   {
     "number": "MATH 1554",

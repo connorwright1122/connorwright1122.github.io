@@ -1,12 +1,78 @@
 export const vfxData = [
     {
+        title: 'SIMILIS',
+        img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: 'https://films.buzzstudios.org/fireandsound',
+        details: {
+            origin: 'AECT 2030 - Leaders in Progress & Service for the Creative Industries',
+            date: 'Spring 2026',
+            tools: 'ComfyUI, DaVinci Resolve',
+            role: 'Director, Writer, Editor, VFX, Production Design'
+        },
+        social_url: 'https://youtu.be/BlbMidX6iYM'
+    },
+    
+    {
+        title: 'Parasocialite',
+        img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: 'https://films.buzzstudios.org/fireandsound',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2026',
+            tools: 'Blender, DaVinci Resolve',
+            role: 'VFX'
+        },
+        //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
+    },
+
+    {
+        title: 'Weight',
+        img: '/assets/images/extras/vfx/parasocialite.png',
+        //link: 'https://films.buzzstudios.org/fireandsound',
+        details: {
+            origin: 'LMC 3406 - Video Production',
+            date: 'Spring 2026',
+            //tools: 'Blender, DaVinci Resolve',
+            role: 'VFX Consulting'
+        },
+        //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
+    },
+    
+    {
+        title: 'Fire and Sound',
+        img: '/assets/images/extras/vfx/ufo.png',
+        link: 'https://films.buzzstudios.org/fireandsound',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Spring 2026',
+            tools: 'Blender, DaVinci Resolve',
+            role: 'VFX'
+        },
+        //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
+    },
+    
+    {
+        title: 'Schnitzelliebhaber',
+        img: '/assets/images/extras/vfx/schnitzel.png',
+        link: 'https://films.buzzstudios.org/schnitzel',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Fall 2025',
+            //tools: 'Blender, DaVinci Resolve',
+            role: 'Writer, Production Design'
+        },
+        //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
+    },
+    
+    {
         title: 'Traffic Flow',
         img: '/assets/images/experience/hirez-logo.jpeg',
         //link: '#',
         details: {
             origin: 'Bumblebee Tuna Cans Film Festival',
             date: 'Fall 2025',
-            tools: 'Blender, DaVinci Resolve'
+            tools: 'Blender, DaVinci Resolve',
+            role: 'Director, Writer, Animator, Editor'
         },
         social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
     },
@@ -14,11 +80,13 @@ export const vfxData = [
     {
         title: 'Tachyon Deliverance',
         img: '/assets/images/projects/TachyonStill_2.5.2.jpg',
-        link: 'https://films.buzzstudios.org/tachyondeliverance',
+        //link: 'https://films.buzzstudios.org/tachyondeliverance',
+        link: 'https://connorwright1122.github.io/tachyon-deliverance/',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
             date: 'Spring 2025',
-            tools: 'Blender, DaVinci Resolve, Figma, Invoke AI, Bambu Studio, Hunyuan3D'
+            tools: 'Blender, DaVinci Resolve, Figma, Invoke AI, Bambu Studio, Hunyuan3D',
+            role: 'Director, Writer, Editor, VFX, Production Design'
         },
         //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
     },
