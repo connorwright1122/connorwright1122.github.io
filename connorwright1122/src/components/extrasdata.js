@@ -42,7 +42,7 @@ export const vfxData = [
     
     {
         title: 'Fire and Sound',
-        img: '/assets/images/extras/vfx/ufo.png',
+        img: '/assets/images/extras/vfx/ufo.PNG',
         link: 'https://films.buzzstudios.org/fireandsound',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
