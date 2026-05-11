@@ -206,7 +206,7 @@ export const experienceData = [
 export const projectData = [
     {
         title: 'KinoPilot - AR Filmmaking',
-        img: '/assets/images/projects/buzzstudios-archive.png',
+        img: '/assets/images/projects/KinoPilot.png',
         link: 'https://devpost.com/software/ar-script-supervisor',
         details: {
             origin: 'ImmerseGT XR Hackathon',

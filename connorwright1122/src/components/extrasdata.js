@@ -14,7 +14,7 @@ export const vfxData = [
     
     {
         title: 'Parasocialite',
-        img: '/assets/images/experience/hirez-logo.jpeg',
+        img: '/assets/images/extras/vfx/parasocialite.png',
         //link: 'https://films.buzzstudios.org/fireandsound',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
@@ -25,6 +25,7 @@ export const vfxData = [
         //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
     },
 
+    /*
     {
         title: 'Weight',
         img: '/assets/images/extras/vfx/parasocialite.png',
@@ -37,6 +38,7 @@ export const vfxData = [
         },
         //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
     },
+    */
     
     {
         title: 'Fire and Sound',
@@ -72,7 +74,7 @@ export const vfxData = [
             origin: 'Bumblebee Tuna Cans Film Festival',
             date: 'Fall 2025',
             tools: 'Blender, DaVinci Resolve',
-            role: 'Director, Writer, Animator, Editor'
+            role: 'Director, Writer, Editor, Animator'
         },
         social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
     },
@@ -91,20 +93,100 @@ export const vfxData = [
         //social_url: 'https://youtu.be/RlQvampEqFw?si=CUWbOjkP5GufNOeH'
     },
 
+    
+    
+
+    
     {
-        title: 'Tachyon Deliverance Q&A',
+        title: 'LMC 3252 - Spatial Analysis',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'LMC 3252 - Studies in Film & Television',
+            date: 'Spring 2023',
+            tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/IY7mXzEFMeA'
+    },
+
+
+    {
+        title: 'The Legacy of Nick Fast',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'HS Film Capstone',
+            date: 'Spring 2022',
+            tools: 'DaVinci Resolve, Blender'
+        },
+        social_url: 'https://youtu.be/184llFZDiiI?si=xY8Hb8D8DM2_NYbT'
+    },
+
+];
+
+export const btsData = [
+    {
+        title: 'Fire and Sound - Teardrop VFX Test',
         //img: '/assets/images/experience/hirez-logo.jpeg',
         //link: '#',
         details: {
             origin: 'Buzz Studios Filmmaking Club',
-            date: 'Spring 2025',
-            tools: 'DaVinci Resolve'
+            date: 'Spring 2026',
+            //tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/OawS1lpmIdE'
+    },
+    
+    {
+        title: 'Tachyon Deliverance - VFX Breakdown',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Fall 2025',
+            //tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/3PaImfxnCLo'
+    },
+
+    {
+        title: 'Tachyon Deliverance - BTS Slideshow',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'Buzz Studios Filmmaking Club',
+            date: 'Fall 2025',
+            //tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/xtuSPE1R4mg'
+    },
+    
+    {
+        title: 'Tachyon Deliverance - SCUFF Q&A',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'South Carolina Underground Film Festival',
+            date: 'Fall 2025',
+            //tools: 'DaVinci Resolve'
+        },
+        social_url: 'https://youtu.be/-aspCJReV70'
+    },
+    
+    {
+        title: 'Tachyon Deliverance - AmAuteur Film Festival Q&A',
+        //img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'AmAuteur Film Festival',
+            date: 'Fall 2025',
+            //tools: 'DaVinci Resolve'
         },
         social_url: 'https://youtu.be/SLMdLDK1_P0'
     },
     
     {
-        title: 'Tachyon Deliverance VFX Test',
+        title: 'Tachyon Deliverance - VFX Test',
         img: '/assets/images/experience/hirez-logo.jpeg',
         //link: '#',
         details: {
@@ -113,6 +195,18 @@ export const vfxData = [
             tools: 'Blender, DaVinci Resolve'
         },
         social_url: 'https://youtu.be/gkZM0LXg4BQ'
+    },
+
+    {
+        title: 'You Are Here - VFX Tests',
+        img: '/assets/images/experience/hirez-logo.jpeg',
+        //link: '#',
+        details: {
+            origin: 'Short Film VFX Test',
+            date: 'Winter 2024',
+            tools: 'Blender'
+        },
+        social_url: 'https://www.instagram.com/p/DSYWNvNCRaF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
     },
 
     {
@@ -138,7 +232,6 @@ export const vfxData = [
         },
         social_url: 'https://youtu.be/sZq4re2WmEk'
     },
-
     {
         title: 'Mitch the Terrifying Eldritch Abomination',
         img: '/assets/images/experience/hirez-logo.jpeg',
@@ -149,18 +242,6 @@ export const vfxData = [
             tools: 'InvokeAI, ComfyUI, Stable Diffusion, DaVinci Resolve'
         },
         social_url: 'https://youtu.be/Uk1OkkyN020'
-    },
-    
-    {
-        title: 'LMC 3252 - Spatial Analysis',
-        //img: '/assets/images/experience/hirez-logo.jpeg',
-        //link: '#',
-        details: {
-            origin: 'LMC 3252 - Studies in Film & Television',
-            date: 'Spring 2023',
-            tools: 'DaVinci Resolve'
-        },
-        social_url: 'https://youtu.be/IY7mXzEFMeA'
     },
 
     {
@@ -174,22 +255,22 @@ export const vfxData = [
         },
         social_url: 'https://youtu.be/9sXVUT4wrY0'
     },
-
-    {
-        title: 'The Legacy of Nick Fast',
-        //img: '/assets/images/experience/hirez-logo.jpeg',
-        //link: '#',
-        details: {
-            origin: 'HS Film Capstone',
-            date: 'Spring 2022',
-            tools: 'DaVinci Resolve, Blender'
-        },
-        social_url: 'https://youtu.be/184llFZDiiI?si=xY8Hb8D8DM2_NYbT'
-    },
-
-];
+    
+] 
 
 export const threedData = [
+    {
+        title: 'The Big Top Banana Hat Fruit Fly Flea Circus',
+        //img: '/assets/images/extras/AtopAMountainOfGlass.png',
+        //link: '#',
+        details: {
+            origin: 'Autodesk @ GT Make-A-Thon',
+            date: 'Spring 2026',
+            tools: 'Maya, Blender, Photoshop'
+        },
+        social_url: 'https://www.instagram.com/p/DXF9mPzDJIp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    },
+    
     {
         title: 'Atop a Mountain of Glass',
         img: '/assets/images/extras/AtopAMountainOfGlass.png',

@@ -1,6 +1,6 @@
 import '../index.css';
 import ProjectGrid from '../components/ProjectGrid';
-import { vfxData, threedData, designData } from '../components/extrasdata';
+import { vfxData, btsData, threedData, designData } from '../components/extrasdata';
 import { gamedevData } from '../components/projectdata';
 import ImageSlider from '../components/ImageSlider';
 
@@ -17,8 +17,11 @@ export default function Portfolio() {
             </div>
             
             <div className='siteBody'>
-                <h2>Film / VFX / Animation</h2>
+                <h2>Films</h2>
                 <ProjectGrid items={vfxData}></ProjectGrid>
+
+                <h2>BTS / VFX Tests</h2>
+                <ProjectGrid items={btsData}></ProjectGrid>
 
                 <h2>3D Art</h2>
                 <ProjectGrid items={threedData}></ProjectGrid>
